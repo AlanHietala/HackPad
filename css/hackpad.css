@@ -1,0 +1,62 @@
+.trigger{
+	border:solid 2px #aaa;
+	border-radius:10px;
+	width:100px;
+	height:100px;
+}
+.off{
+	background:red;
+}
+.on{
+	background:green;
+}
+
+.play-mode{
+	display:none;
+}
+
+.trigger-name{
+	text-align: center;
+	margin-top: 40px;
+	color:#eee;
+}
+.pad{
+	
+}
+.pad-play{
+	float:left;
+	width:100px;
+	height:100px;
+	margin:10px;
+}
+
+.pad-edit{
+	margin:10px;
+	padding:10px;
+	background:#aaa;
+	border:solid #ddd 2px;
+	border-radius:10px;
+}
+
+body{
+	font-family:verdana;
+}
+label{
+	width:200px;
+	display:block;
+	float:left;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li{
+	text-decoration:none;
+}
+
+input{
+	border-radius:5px;
+	font-size:12px;
+	padding:3px;
+}
