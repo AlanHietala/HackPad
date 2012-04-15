@@ -8,31 +8,32 @@
 		<script type="text/javascript" src="js/backbone-localstorage.js"></script>
 		<script type="text/javascript" src="http://w.soundcloud.com/player/api.js"></script>
 	</head>
-<body>
-	
-	<div id="app-container">
-		<h1>HackPad</h1>
-		<p>A HackTO Joint by Alan Hietala</p>
-		<button class="edit-mode-button">Edit Mode</button><button class="play-mode-button">Play Mode</button><button class="add-trigger">Add Trigger</button>
-	</div>
-	<script id="pad-view-template" type="text/template">
-			<div class="edit-mode">
-			<div class="player">
-				<div class="no-sample">No Sample Loaded</div>
-			</div>
-			<div class="controls">
-				<ul>
-				<li><button class="test-button">test</button><button class="stop-button">stop</button></li>
-				<li><label>Pad Name:</label> <input class="pad-name" type='text' value="Default" />
-				<li><label>SoundCloud Embed:</label><input type="text" class="soundcloud-url" /><button class="load-button">Load</button></li>
-				<li><label>Starting:</label><input type="text" class="start-index" value="0" /><button class="pick-time">current time</button></li>
-				<li><label>Sample Duration:</label><input type="text" class="loop-duration" value="10000"/></li>
-				<li><label>Loop:</label><input type="checkbox" class="is-loop" /></li>
-				<li><button class="save-button">Save</button></li>
-			</div>
-			</div>
-			<div class="play-mode">
-				<div class="play-button trigger off"><div class="trigger-name"></div></div>
-			</div>
-	</script>
-</body>
+	<body>	
+		<div id="app-container">
+			<h1>HackPad</h1>
+			<p>A HackTO Joint by Alan Hietala</p>
+			<button class="edit-mode-button">Edit Mode</button><button class="play-mode-button">Play Mode</button><button class="add-trigger">Add Trigger</button>
+		</div>
+		<script id="pad-view-template" type="text/template">
+				<div class="edit-mode">
+					<div class="player">
+						<div class="no-sample">No Sample Loaded</div>
+					</div>
+					<div class="controls">
+						<ul>
+							<li><button class="test-button">test</button><button class="stop-button">stop</button></li>
+							<li><label>Pad Name:</label> <input class="pad-name" type='text' value="Default" />
+							<li><label>SoundCloud Embed:</label><input type="text" class="soundcloud-url" /><button class="load-button">Load</button></li>
+							<li><label>Starting:</label><input type="text" class="start-index" value="0" /><button class="pick-time">current time</button></li>
+							<li><label>Sample Duration:</label><input type="text" class="loop-duration" value="10000"/></li>
+							<li><label>Loop:</label><input type="checkbox" class="is-loop" /></li>
+							<li><button class="save-button">Save</button></li>
+						</ul>
+					</div>
+				</div>
+				<div class="play-mode">
+					<div class="play-button trigger off"><div class="trigger-name"></div></div>
+				</div>
+		</script>
+	</body>
+</html>
