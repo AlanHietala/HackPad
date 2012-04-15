@@ -1,0 +1,7 @@
+HackPad
+
+HackTO app that loads soundcloud clips and lets the user create loops and trigger them live.
+
+In the current state you can't actually play two sound clips at the same time due to a soundcloud HTML5 widget limitation. Porting to the Flash Widget would solve this problem but I ran out of time to do that.
+
+
